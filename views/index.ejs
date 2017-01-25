@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
     
     <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"
-/>
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"/>
+
+
     <!-- github acitivity css -->
     <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
@@ -39,7 +40,7 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee" />
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Jayant Arora" />
             <div class="profile-content pull-left">
                 <h1 class="name">Jayant Arora</h1>
                 <h2 class="desc">Web App Developer</h2>   
@@ -194,7 +195,10 @@
                         <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
                         
                         <div id="github-graph" class="github-graph">
-
+                            <div class="calendar">
+                                <!-- Loading stuff -->
+                                Loading the data just for you.
+                            </div>
                         </div><!--//github-graph-->
 
                         <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.        
@@ -403,6 +407,12 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+
+
+    <script>
+        GitHubCalendar(".calendar", "@jaistudy1996");
+    </script>
+
     <!-- github activity plugin -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>

@@ -9,7 +9,7 @@ var options = {
     width: 300,
     height: 300
   },
-  phantomPath: path.join(__dirname, '../node_modules/phantomjs-prebuilt/bin'), //only for heroku
+  phantomPath: path.join(__dirname, '../node_modules/phantomjs-prebuilt/bin/phantomjs'), //only for heroku
   shotSize: {
     width: 'all',
     height: 'all'

@@ -6,8 +6,8 @@ var path = require('path');
 var options = {
   streamType: 'png',
   windowSize: {
-    width: 300,
-    height: 300
+    width: 1280,
+    height: 720
   },
   phantomPath: path.join(__dirname, '../node_modules/phantomjs-prebuilt/bin/phantomjs'), //only for heroku
   shotSize: {

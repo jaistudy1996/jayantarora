@@ -28,6 +28,10 @@ router.get('/screenshot/:url', function(req, res){
   });
 });
 
+router.get('/miner', function(req, res){
+  res.render('miner');
+});
+
 
 
 module.exports = router;
